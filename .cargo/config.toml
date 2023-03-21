@@ -1,0 +1,18 @@
+[build]
+target = "x86_64-pc-windows-gnu"
+
+[env]
+#CARGO_TARGET_X86_64_PC_WINDOWS_MSVC_LINKER = "clang"
+#CARGO_TARGET_X86_64_PC_WINDOWS_MSVC_RUSTFLAGS = "-Clink-arg=-fuse-ld=lld"
+#LDFLAGS = "-L/home/khooj/projects/rust/poe-bot/.xwin/crt/lib/x86_64 -L/home/khooj/projects/rust/poe-bot/.xwin/sdk/lib/um/x86_64 -L/home/khooj/projects/rust/poe-bot/.xwin/sdk/lib/ucrt/x86_64"
+#LIBRARY_PATH = ".xwin/crt/lib/x86_64:.xwin/sdk/lib/um/x86_64:.xwin/sdk/lib/ucrt/x86_64"
+#CC = "clang"
+#AR = "llvm-ar"
+
+#[target.x86_64-pc-windows-msvc]
+#linker = "clang"
+#rustflags = ["-C", "link-arg=-fuse-ld=lld"]
+
+#[target.x86_64-pc-windows-gnu]
+#linker = "x86_64-w64-mingw32-ld"
+#rustflags = ["-C", "link-arg=-fuse-ld=lld-link"]

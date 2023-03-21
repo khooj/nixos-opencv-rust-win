@@ -1,0 +1,9 @@
+/target
+/.xwin
+/.xwin-cache
+/result
+/opencv-4.7.0
+/OpenCV*
+/source
+/outputs
+/.direnv
